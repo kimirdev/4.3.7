@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #C4C4C4;
+    width: 661px;
+    margin-top: 100px;
+}
+
+.search {
+    margin: 64px auto;
+    width: 500px;
+}
+
+.search__input {
+    border: none;
+    width: 100%;
+    height: 61px;
+    font-size: 48px;
+    margin: 0;
+}
+
+.search__autocomplete {
+    padding: 0;
+    margin: 0;
+}
+
+.search__hint {
+    background-color: #e3e3e3;
+    list-style: none;
+    width: 100%;
+    height: 44px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.search__hint:last-child {
+    border-bottom: 2px solid black;
+}
+
+.search__hint:hover {
+    background-color: #65CDF9;
+    cursor: pointer;
+}
+
+.save-box {
+    margin-bottom: 72px;
+}
+
+.save-box__card {
+    background-color: #E27BEB;
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    border: 1px solid black;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+.save-box__text {
+    margin: 0;
+}
+
+.save-box__delete-btn {
+    background: none;
+    border: none;
+}
+
+.save-box__delete-btn:hover {
+    cursor: pointer;
+}

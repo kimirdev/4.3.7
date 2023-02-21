@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" class="search__input">
+            <ul class="search__autocomplete">
+            </ul>
+        </div>
+        <div class="save-box">
+
+        </div>
+    </div>
+    <template id="save-box-elem">
+        <div class="save-box__card">
+            <div class="save-box__texts">
+                <p class="save-box__text">Name: 
+                    <span class="save-box__name"></span>
+                </p>
+                <p class="save-box__text">Owner: 
+                    <span class="save-box__owner"></span>
+                </p>
+                <p class="save-box__text">Stars: 
+                    <span class="save-box__stars"></span>
+                </p>
+            </div>
+            <button class="save-box__delete-btn">
+                <img src="./delete.svg" alt="" class="save-box__delete-btn">
+            </button>
+        </div>
+    </template>
+    <script src="./index.js"></script>
+</body>
+</html>
+
